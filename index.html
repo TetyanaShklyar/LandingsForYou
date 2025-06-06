@@ -210,6 +210,17 @@
         }, { threshold: 0.1 });
 
         faders.forEach(fade => observer.observe(fade));
+
+        document.querySelectorAll('.menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                const menu = document.getElementById('menu');
+                const burger = document.querySelector('.burger');
+                if (menu.classList.contains('active')) {
+                    menu.classList.remove('active');
+                    burger.classList.remove('active');
+                }
+            });
+        });
     </script>
 </body>
 
