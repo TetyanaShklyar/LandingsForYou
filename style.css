@@ -491,7 +491,7 @@ footer span {
   }
 
   nav .menu.active {
-    min-height: 89vh;
+    min-height: 84vh;
     opacity: 1;
     padding: 2rem;
     align-items: center;
@@ -503,7 +503,7 @@ footer span {
   }
 
   section {
-    padding: 1rem;
+    padding: 150px 1rem 1rem;
   }
 
   header {
@@ -542,7 +542,7 @@ footer span {
   }
 
   .parallax {
-    padding: 4rem 2rem;
+    padding: 150px 2rem 4rem 2rem;
     margin-bottom: 3rem;
   }
 }
