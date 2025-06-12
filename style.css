@@ -271,6 +271,18 @@ section p {
   line-height: 1.7;
 }
 
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 30px;
+}
+
+.image-back {
+  max-width: 45%;
+}
+
 #about span {
   font-family: 'Playfair Display', serif;
   font-style: italic;
@@ -544,5 +556,13 @@ footer span {
   .parallax {
     padding: 150px 2rem 4rem 2rem;
     margin-bottom: 3rem;
+  }
+
+  #about {
+    flex-direction: column;
+  }
+  .image-back {
+    max-width: 100%;
+    margin-bottom: 64px;
   }
 }
